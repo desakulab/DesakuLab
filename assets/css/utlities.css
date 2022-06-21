@@ -113,7 +113,7 @@
 }
 
 hr.desaku-hr {
-    border: 2px solid orange;
+    border: 2px solid var(--dc-primary);
     opacity: 100%;
     margin-left: 3rem;
     margin-right: 50rem;
@@ -121,7 +121,7 @@ hr.desaku-hr {
 }
 
 hr.desaku-hr2 {
-    border: 2px solid orange;
+    border: 2px solid var(--dc-primary);
     opacity: 100%;
     margin-left: 1rem;
     margin-right: 18rem;
@@ -145,6 +145,11 @@ hr.desaku-hr2 {
     box-shadow: none !important;
     color: var(--dc-typography);
     border: 0 !important;
+    transition: 0.3s ease;
+}
+
+.card-team:hover {
+    transform: scale(1.1);
 }
 
 

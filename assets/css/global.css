@@ -24,8 +24,8 @@
     --dc-half-darker: #1f222e;
     --dc-dark: #242835;
     --dc-typography: #fff;
-    --dc-primary: orange;
-    --dc-secondary: darkorange;
+    --dc-primary: #ff7547;
+    --dc-secondary: #ff6b3a;
 }
 
 
@@ -94,7 +94,7 @@ a {
 }
 
 .t-yellow {
-    color: orange;
+    color: var(--dc-primary);
 }
 
 .t-white {
@@ -121,7 +121,7 @@ a {
 }
 
 .icon:hover {
-    color: orange;
+    color: var(--dc-primary);
     transform: scale(1.30);
 }
 
@@ -136,4 +136,5 @@ a {
 
 .dc-btn:hover {
     background: var(--dc-secondary) !important;
+    transform: scale(1.1);
 }
