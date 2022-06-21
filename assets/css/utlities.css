@@ -98,3 +98,73 @@
         margin-top: 7.5rem !important;
     }
 }
+
+
+/*
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+* │                                                                         │
+* │                            Team Section CSS                             │
+* │                                                                         │
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+*/
+
+.project {
+    background-color: #1a1d26;
+}
+
+hr.desaku-hr {
+    border: 2px solid orange;
+    opacity: 100%;
+    margin-left: 3rem;
+    margin-right: 50rem;
+    border-radius: 5px;
+}
+
+hr.desaku-hr2 {
+    border: 2px solid orange;
+    opacity: 100%;
+    margin-left: 1rem;
+    margin-right: 18rem;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    hr.desaku-hr {
+        margin-left: 1rem;
+        margin-right: 7rem;
+    }
+    hr.desaku-hr2 {
+        margin-left: 1rem;
+        margin-right: 7rem;
+    }
+}
+
+.card-desaku {
+    background-color: var(--dc-half-darker) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: var(--dc-typography);
+    border: 0 !important;
+}
+
+
+/*
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+* │                                                                   │
+* │                      Form Customization                           │
+* │                                                                   │
+*  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+*/
+
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: var(--dc-primary) solid 0.2rem !important;
+}
+
+.form-control {
+    background: var(--dc-dark) !important;
+    color: var(--dc-dark) !important;
+    border: var(--dc-dark) solid 0.2rem !important;
+}
